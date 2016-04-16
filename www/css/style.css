@@ -1,0 +1,43 @@
+/* Empty. Add your own CSS if you like */
+.ion{
+	background: -webkit-linear-gradient(#ff7200, #ffa200); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff7200, #ffa200); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff7200, #ffa200); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff7200, #ffa200); /* Standard syntax */
+	background-size: 100% 100%;
+}
+ion-content{text-align:center;}
+.homelogo{margin:0 auto; margin-top:25%;text-align:center;}
+.petimage{width:60%;}
+.divproceedbtn{width:40%; margin-top:15%;}
+.selectionbtn{vertical-align:middle; min-height:30px;  padding:0px 40px; border-radius:5px;}
+.topmargin{margin-top:15% ! important;}
+.toplogo{padding:10px 0px 5px}
+.imagesize{height:100px; width:200px}
+.category{height:36px ! important; text-align:center; font-size:20px; font-weight:600;}
+.category p {margin: 0 auto;}
+.layer{
+	position: absolute; 
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	display: inline-block;
+}
+.layer  p{
+	color: white; 
+   font: 36px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding-top: 70px; 
+   height: 100%;
+   
+   /*  background-color: rgba(10, 15, 25, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+	
+}

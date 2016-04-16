@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+.ion{
+	background: url(/img/petbg1.png) no-repeat center;
+	/* background-image: url('../img/petbg1.png');
+	background-repeat:no-repeat; */
+	background-size: 100% 100%;
+}
+ion-content{text-align:center;}
+.homelogo{margin:0 auto; margin-top:25%;text-align:center;}
+.petimage{width:60%; float:left;}
+.divproceedbtn{width:40%; margin-top:15%;}
+.selectionbtn{vertical-align:middle; min-height:30px;  padding:0px 40px; border-radius:5px;}
+.topmargin{margin-top:15% ! important;}

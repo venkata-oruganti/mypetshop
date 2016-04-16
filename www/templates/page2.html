@@ -1,0 +1,21 @@
+<ion-view hide-nav-bar="true" title="" class="ion">
+    <ion-content overflow-scroll="true" padding="false">
+		<div class='toplogo'>
+            <img src="img/pet.png">
+        </div>
+		<div class="bar bar-block bar-positive category">
+            <p>Categories</p>
+        </div>
+		<ion-list>
+		<a ng-repeat="user in users" ng-click="setSelected(user.categoryid)" class="item" no-repeat center; ui-sref="page3">
+		<div style="background: url('http://sumudra.net/pet/{{user.image}}'); background-size: 100% 100%; height:150px; width: 0 auto;">
+          <!-- <img class="imagesize" ng-src="http://sumudra.net/pet/{{user.image }}"><br> -->
+				<div class="layer"><p>{{user.categoryname}}</p></div>
+     			<!-- <label ng-model="selling">Selling Price: {{user.sellingprice}}</label><br>
+				<label ng-model="discount">Discount: {{user.discount}}</label><br>
+				<label ng-model="offer" onchange=offerprice()>Offer Price: <b ng-bind="response"></b></label><br> -->
+        </div>
+		</a>
+		</ion-list>
+    </ion-content>
+</ion-view>

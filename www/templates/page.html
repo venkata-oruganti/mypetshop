@@ -1,0 +1,25 @@
+<ion-view title="Page" id="page2" class="ion">
+<ion-nav-bar style="display:none;">
+</ion-nav-bar>
+    <ion-content overflow-scroll="true" padding="false" scroll="false" class="">
+        <div>
+            <img src="img/petlogo.png">
+        </div>
+		<div class='row topmargin'>
+			<div class='petimage'>
+				<img src="../img/dog.png" >
+			</div>
+			<div class='divproceedbtn'>
+				<button id="dog" ng-click="setpettype($event)" class="button button-light selectionbtn" ui-sref="page2">DOG</button>
+			</div>
+		</div>
+		<div class='row topmargin'>
+			<div class='divproceedbtn'>
+				<button id="cat" ng-click="setpettype($event)" class="button button-light selectionbtn" ui-sref="page2">CAT</button>
+			</div>
+			<div class='petimage'>
+				<img src="../img/cat.png" >
+			</div>
+		</div>
+    </ion-content>
+</ion-view>
