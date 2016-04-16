@@ -29,6 +29,7 @@ angular.module('app.routes', [])
   })
   
   .state('page3', {
+    cache: false,
     url: '/page3',
     templateUrl: 'templates/page3.html',
     controller: 'page3Ctrl'
